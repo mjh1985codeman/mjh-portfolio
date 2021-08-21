@@ -70,18 +70,22 @@
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-size: 1.5rem;
   }
-
-  #footer-txt {
-    font-size: 2rem;
-    background-color: rgba(0, 0, 0, .7);
+  footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    display: flex;
+  }
+  .footer-txt {
+    font-size: 1.5rem;
     color: var(--light);
-    border: none;
+    
   }
 
-  footer p {
-    font-size: 2rem;
-    background-color: rgba(0, 0, 0, .7);
-    color: var(--light);
+  .footer-txt p {
+    display: flex;
+    padding: 25px;
+
   }
   
   h3 {
